@@ -42,6 +42,7 @@ body {
 .card-aboutme {
     width: 50vw;
     margin: auto auto;
+    display: flex;
 }
 .card-projects {
     background-color: white;
@@ -61,7 +62,7 @@ body {
     text-align: center;
 }
 .topnav {
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
 }
 .topnav a {
@@ -84,7 +85,17 @@ body {
 .topnav .icon {
     display: none;
 }
+.headshot {
+    height: 300px;
+    width: 200px;
+}
 
+@media screen and (max-width: 880px) {
+    .card-aboutme {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -92,7 +103,6 @@ body {
     display: block;
     }
 }
-
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
