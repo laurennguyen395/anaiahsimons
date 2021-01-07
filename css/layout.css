@@ -204,13 +204,19 @@ h1{
         font-size: 20px;
         margin-left: 5px !important;
     }
+    .home-content {
+        margin-top: 100px !important;
+    }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 374px) {
     body {
         background: url('https://i.imgur.com/X0FjufF.jpg');
         background-position: right -300px bottom 0px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+    .home-content {
+        margin-bottom: 125px !important;
     }
 }
