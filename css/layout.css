@@ -107,9 +107,8 @@ h1{
     text-align: center;
 }
 .topnav {
-    background-color: rgb(0, 0, 0);
+    background-color: #333;
     overflow: hidden;
-    height: 50px;
 }
 .topnav a {
     float: left;
@@ -122,8 +121,7 @@ h1{
 }
 .topnav a:hover {
     background-color: rgba(93, 116, 70, 0.9);
-    color: white;
-    height: 50px;
+    color: black;
 }
 .topnav a.active {
     background-color: rgba(93, 116, 70, 0.9);
