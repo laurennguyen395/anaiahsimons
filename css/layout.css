@@ -87,7 +87,7 @@ h1{
     background-color: rgba(230, 230, 230,0.2);
     padding: 15px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .card-projects {
     background-color: white;
@@ -132,10 +132,18 @@ h1{
     width: 200px;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1290px) {
     .card-aboutme {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .headshot {
+        margin: 0 auto;
+    }
+    #aboutMeQ {
+        display: inline-block;
+        margin: 15px !important;
     }
 }
 @media screen and (max-width: 600px) {
@@ -182,5 +190,14 @@ h1{
     float: none;
     display: block;
     text-align: left;
+    }
+}
+@media screen and (max-width: 376px) {
+    body {
+        background: url('https://i.imgur.com/X0FjufF.jpg');
+        background-position: right -300px bottom 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
