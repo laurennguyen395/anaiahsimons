@@ -7,7 +7,7 @@ body {
     padding: 0px !important;
     height: 100vh;
     font-family: 'Rajdhani', sans-serif !important;
-    background: url('https://i.imgur.com/IVmvepc.jpg');
+    background: url('https://i.imgur.com/X0FjufF.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,17 +15,39 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+h1{
+    margin: 15px 0 15px 15px !important;
+}
 .home-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    justify-content: flex-start; 
+    margin: 150px 0 0 25px;
 }
-.icons {
-    display: flex;
-    justify-content: center ;
-    align-items: center;
+.name{
+    margin: 10px 0px 0px  !important;
+    font-size: 50px;
+}
+.myTitle{
+    font-size: 25px;
+}
+.icons{
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin: 0 0 15px 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px;
+    box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
+}
+.contact-icons{
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin: 0 0 15px 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px;
+    box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
 }
 .fa-linkedin {
     color: #000;
@@ -43,6 +65,8 @@ body {
     width: 50vw;
     margin: auto auto;
     display: flex;
+    float: left;
+    margin-left: 15px;
 }
 .card-projects {
     background-color: white;
@@ -101,6 +125,16 @@ body {
     .topnav a.icon {
     float: right;
     display: block;
+    }
+    .icons{
+        display: none;
+    }
+    body {
+        background: url('https://i.imgur.com/X0FjufF.jpg');
+        background-position: right -220px bottom 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 @media screen and (max-width: 600px) {
