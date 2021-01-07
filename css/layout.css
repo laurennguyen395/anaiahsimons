@@ -49,6 +49,15 @@ h1{
     border-radius: 25px;
     box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
 }
+.home-icons{
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin: 0 0 15px 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px;
+    box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
+}
 .fa-linkedin {
     color: #000;
     margin: auto 10px;
