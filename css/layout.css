@@ -92,12 +92,23 @@ h1{
     color: rgba(93, 116, 70, 0.9);
     margin: auto 10px;
 }
+.aboutMeClassCont {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0 auto;
+}
 .card-aboutme {
     width: 50vw;
     margin: auto auto;
     display: flex;
     float: left;
     margin-left: 15px;
+}
+.aboutMe {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .aboutMeP {
     background-color: rgba(230, 230, 230,0.2);
@@ -159,6 +170,9 @@ h1{
     height: 300px;
     width: 200px;
 }
+.aboutMe {
+    display: flex;
+}
 @media screen and (max-width: 1290px) {
     .card-aboutme {
         display: flex;
@@ -172,14 +186,13 @@ h1{
         display: inline-block;
         margin: 15px !important;
     }
-}
-/* @media screen and (max-width: 1000px) {
-    .proj-card-cont {
+    .aboutMeClassCont {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
     }
-} */
+}
 @media screen and (max-width: 880px) {
     .name {
         font-size: 50px;
