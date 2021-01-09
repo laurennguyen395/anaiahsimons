@@ -201,7 +201,7 @@ h1{
 .skill-card {
     background-color: rgba(230, 230, 230,0.2);
     margin-left: 15px;
-    border-radius: 25px;
+
 }
 .skills-title {
     margin: 30px 35px;
@@ -368,6 +368,10 @@ a {
     .aboutmeP {
         height: 250px !important;
         width: 180px !important;
+    }
+    .skills-container {
+        height: 250px;
+        width: 250px;
     }
 
 }
