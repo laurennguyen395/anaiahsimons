@@ -106,17 +106,6 @@ h1{
     float: left;
     margin-left: 15px;
 }
-.aboutMe {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.aboutMeP {
-    background-color: rgba(230, 230, 230,0.2);
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 15px;
-}
 .card-projects {
     background-color: white;
 }
@@ -129,10 +118,17 @@ h1{
     width: 265px;
 }
 .card-title {
-    text-align: center;
+    text-align: left;
+}
+.card.mb-3 {
+    margin-left: 15px;
+    background-color: rgba(230, 230, 230,0.2);
+    /* width: 540px;
+    height: 450px; */
 }
 .card-text {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 0px !important;
 }
 .card-link {
     display: flex;
@@ -163,10 +159,6 @@ h1{
 .topnav .icon {
     display: none;
 }
-.headshot {
-    height: 300px;
-    width: 200px;
-}
 #carouselExampleIndicators.carousel.slide{
     height: 300px;
     width: 200px;
@@ -174,15 +166,26 @@ h1{
 .aboutMe {
     display: flex;
 }
+.headshot {
+    margin: 15px 0 0 30px !important;
+}
+.card-title-about-me {
+    text-align: left;
+    padding-left: 25px;
+}
+.card-text-about-me {
+    padding-left: 25px;
+}
 @media screen and (max-width: 1290px) {
     .card-aboutme {
         display: flex;
         flex-wrap: wrap;
         margin-top: 25px;
     }
-    .headshot {
-        margin: 0 auto;
-    }
+    /* .headshot {
+        height: 400px;
+        width: 285px;
+    } */
     #aboutMeQ {
         display: inline-block;
         margin: 15px !important;
@@ -209,9 +212,9 @@ h1{
     .card {
         margin-top: 20px !important;
     }
-    .aboutmeP {
-        height: 403px !important;
-        width: 352px !important;
+    .card.mb-3 {
+        background-color: rgba(230, 230, 230,0.7);
+        margin: 0 auto !important;
     }
 }
 @media screen and (max-width: 600px) {
@@ -225,6 +228,12 @@ h1{
         width: 352px !important;
     }
 
+}
+@media screen and (max-width: 760px) {
+    .headshot {
+        height: 400px;
+        width: 285px;
+    }
 }
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
