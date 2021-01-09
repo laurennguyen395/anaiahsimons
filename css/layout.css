@@ -31,10 +31,10 @@ h1{
 }
 .myTitle {
     font-size: 45px;
-    margin: 25px 0px 0px  !important;
+    margin: 25px 0px 0px 8px  !important;
 }
 .icons{
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     margin: 0 0 15px 15px;
@@ -43,7 +43,7 @@ h1{
     box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
 }
 .contact-icons{
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     margin: 0 0 15px 15px;
@@ -52,7 +52,7 @@ h1{
     box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
 }
 .home-icons{
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     margin: 0 0 15px 15px;
@@ -109,9 +109,16 @@ h1{
 .card-projects {
     background-color: white;
 }
+.card-projects:hover {
+    cursor: pointer;
+}
 .proj-card-cont {
     display: flex;
     justify-content: space-around;
+    margin-top: 25px;
+}
+.project-title {
+    margin-bottom: 15px;
 }
 .card-img-top {
     height: 225px;
@@ -119,21 +126,26 @@ h1{
 }
 .card-title {
     text-align: left;
+    color: black;
 }
 .card.mb-3 {
-    margin-left: 15px;
+    margin: 15px 0 0 15px;
     background-color: rgba(230, 230, 230,0.2);
-    /* width: 540px;
-    height: 450px; */
+
 }
 .card-text {
     text-align: left;
     margin-bottom: 0px !important;
+    color: black;
 }
 .card-link {
     display: flex;
     justify-content: center;
     align-content: flex-end;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(230, 230, 230,0.2);
+    font-size: 20px;
 }
 .topnav {
     background-color: #333;
@@ -167,7 +179,7 @@ h1{
     display: flex;
 }
 .headshot {
-    margin: 15px 0 0 30px !important;
+    margin: 55px 0 0 30px !important;
 }
 .card-title-about-me {
     text-align: left;
@@ -175,6 +187,52 @@ h1{
 }
 .card-text-about-me {
     padding-left: 25px;
+}
+.skills-container {
+    height: 500px;
+    width: 500px;
+}
+.skills-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 15px 15px;
+}
+.skill-card {
+    background-color: rgba(230, 230, 230,0.2);
+    margin-left: 15px;
+    border-radius: 25px;
+}
+.skills-title {
+    margin: 30px 35px;
+}
+.skill {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(230, 230, 230,0.2);
+    /* border-radius: 0px 0px 25px 25px; */
+}
+.sql {
+    height: 85px;
+}
+.card-contact {
+    /* background-color: rgba(230, 230, 230,0.2); */
+    height: 250px;
+    width: 500px;
+    margin: 25px 0 0 15px;
+}
+.contactP {
+    font-size: 22px
+}
+#grow { 
+    transition: all .2s ease-in-out; 
+    }
+#grow:hover { 
+    transform: scale(1.1); 
+}
+a {
+    text-decoration: none !important;
+    color: black;
 }
 @media screen and (max-width: 1290px) {
     .card-aboutme {
@@ -227,7 +285,6 @@ h1{
         height: 403px !important;
         width: 352px !important;
     }
-
 }
 @media screen and (max-width: 760px) {
     .headshot {
@@ -251,13 +308,14 @@ h1{
         display: none;
     }
     .home-icons{
-        position:absolute;
+        /* position:fixed;
         bottom:0;
         left:0;
         margin: 0 0 15px 15px;
         background-color: rgba(230, 230, 230,0.2);
         border-radius: 25px;
-        box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
+        box-shadow: 2px 5px rgba(136, 136, 136, 0.2); */
+        display:none;
     }
     body {
         background: url('https://i.imgur.com/X0FjufF.jpg');
@@ -276,6 +334,9 @@ h1{
     }
     .home-content {
         margin-top: 100px !important;
+    }
+    .card-contact {
+        background-color: rgba(230, 230, 230,0.7)
     }
 }
 @media screen and (max-width: 374px) {
