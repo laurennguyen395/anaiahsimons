@@ -199,10 +199,15 @@ h1{
     margin: 15px 15px;
 }
 .skill-card {
-    background-color: rgba(230, 230, 230,0.2);
+    background-color: (230, 230, 230,0.2);
     margin-left: 15px;
-
+    height: 100px;
+    width: 102px;
+    margin-top: 15px;
 }
+/* .fab {
+    margin: 0 auto;
+} */
 .skills-title {
     margin: 30px 35px;
 }
