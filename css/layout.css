@@ -362,7 +362,7 @@ a {
 @media screen and (max-width: 374px) {
     body {
         background: url('https://i.imgur.com/X0FjufF.jpg');
-        background-position: right -400px bottom 0px;
+        background-position: right -1000px bottom 0px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
