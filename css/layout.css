@@ -179,7 +179,8 @@ h1{
     display: flex;
 }
 .headshot {
-    margin: 55px 0 0 30px !important;
+    margin-top: 50px !important;
+    margin-left: 37px !important;
 }
 .card-title-about-me {
     text-align: left;
