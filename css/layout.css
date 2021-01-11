@@ -240,6 +240,11 @@ a {
     text-decoration: none !important;
     color: black;
 }
+.tech-used {
+    text-decoration: none !important;
+    color: black !important;
+    margin-top: 10px;
+}
 @media screen and (max-width: 1290px) {
     .card-aboutme {
         display: flex;
