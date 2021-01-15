@@ -393,6 +393,9 @@ a {
     margin: 15px 15px;
     width: 270px;
   }
+  .card-projects {
+    margin: 7px auto !important;
+  }
 }
 @media screen and (max-width: 374px) {
   .body-aboutme {
