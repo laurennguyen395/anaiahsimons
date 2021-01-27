@@ -1,54 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/layout.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/layout.css" />
     <script src="/js/app.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/fontawesome/all.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/fontawesome/all.css" />
     <style media="all" id="fa-v4-font-face"></style>
     <style media="all" id="fa-v4-shims"></style>
     <style media="all" id="fa-main"></style>
-    <script src="https://kit.fontawesome.com/fca66d4279.js" crossorigin="anonymous"></script>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fca66d4279.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <title>Lauren Nguyen</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- NAV BAR -->
     <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="contact.html">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+      <!-- <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a> -->
+      <div class="header-icons">
+        <a href="https://www.linkedin.com/in/laurennguyendev/" target="_blank"
+          ><i class="fab fa-linkedin fa-1x"></i
+        ></a>
+        <a href="https://github.com/laurennguyen395" target="_blank"
+          ><i class="fab fa-github fa-1x"></i
+        ></a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=laurennguyen395@gmail.com"
+          target="_blank"
+          ><i class="fas fa-inbox fa-1x"></i
+        ></a>
+        <a
+          href="https://drive.google.com/file/d/1uTwE5pUSjsB1uIyu8rntJf4mRleYRYFS/view?usp=sharing"
+          target="_blank"
+          ><i class="far fa-file fa-1x"></i
+        ></a>
+      </div>
+      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a> -->
     </div>
 
-    <div class='home-content'>
+    <div
+      class="header"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit');
+      "
+    >
+      <div class="header-content">
         <h1 class="name">Lauren Nguyen</h1>
         <h3 class="myTitle">Full Stack Developer</h3>
+        <div class="buttons">
+          <a href="projects.html" id="grow" class="header-btn">Projects</a>
+          <a href="contact.html" id="grow" class="header-btn">Contact</a>
+        </div>
+      </div>
     </div>
-    
 
-    <div class='home-icons'>
-        <a href="https://www.linkedin.com/in/laurennguyendev/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
-        <a href="https://github.com/laurennguyen395" target="_blank"><i class="fab fa-github fa-4x"></i></a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=laurennguyen395@gmail.com" target="_blank"><i
-                class="fas fa-inbox fa-4x"></i></a>
-        <a href="https://drive.google.com/file/d/1uTwE5pUSjsB1uIyu8rntJf4mRleYRYFS/view?usp=sharing" target="_blank"><i
-                class="far fa-file fa-4x"></i></a>
+    <!-- ABOUT ME -->
+    <div class="aboutMe">
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://i.imgur.com/M1rMkxn.jpg"
+              class="headshot"
+              alt="Lauren Nguyen"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title-about-me">Hello,</h5>
+              <p class="card-text-about-me">
+                My name is Lauren Nguyen, and I am a detail oriented, full stack
+                engineer with a strong work ethic in writing dependable code.
+                Passionate about, but not bound to, Javascript, Postgres,
+                Express, React and Node, solving problems and creating solutions
+                drive me to achieve greatness in my work. With skills as a
+                professional bartender and stunt woman, I have a strong sense of
+                urgency all the while being able to communicate well with others
+                in order to have an enjoyable experience be it colleague or
+                client.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="skills-container">
+        <div class="skills-title">
+          <h3>Technical Skills</h3>
+        </div>
+        <div class="skills-card-container">
+          <div class="skill-card">
+            <i class="fab fa-html5 fa-6x about-i"></i>
+            <p class="skill">HTML5</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js-square fa-6x about-i"></i>
+            <p class="skill">Javascript</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-python fa-6x about-i"></i>
+            <p class="skill">Python</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js fa-6x about-i"></i>
+            <p class="skill">Node.js</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-react fa-6x about-i"></i>
+            <p class="skill">React</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt fa-6x about-i"></i>
+            <p class="skill">CSS3</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-bootstrap fa-6x about-i"></i>
+            <p class="skill">Bootstrap</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-sass fa-6x about-i"></i>
+            <p class="skill">Sass</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt fa-6x about-i"></i>
+            <p class="skill">Git</p>
+          </div>
+          <div class="skill-card">
+            <img class="sql" src="./assets/sql.png" />
+            <p class="skill">Sequelize</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

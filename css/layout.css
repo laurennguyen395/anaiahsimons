@@ -7,35 +7,41 @@ body {
   padding: 0px !important;
   height: 100vh;
   font-family: 'Source Code Pro', monospace !important;
-  background: url('https://i.imgur.com/X0FjufF.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 h1 {
-  margin: 15px 0 15px 15px !important;
+  margin: 55px;
   font-size: 34px;
 }
-.home-content {
+h3 {
+  white-space: nowrap;
+}
+.header {
+  height: 40vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
+}
+.header-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin: 150px 0 0 25px;
+  align-items: center;
 }
 .name {
-  margin: 8px 0px 25px 0px !important;
-  font-size: 90px;
+  color: #fff;
+  font-size: 80px;
+  margin-top: 125px !important;
 }
 .myTitle {
+  color: #fff;
+  margin: 25px 0 25px 0;
   font-size: 45px;
-  margin: 25px 0px 0px 8px !important;
 }
-.icons {
+/* .icons {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -43,57 +49,57 @@ h1 {
   background-color: rgba(230, 230, 230, 0.1);
   border-radius: 25px;
   box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
-}
+} */
 .contact-icons {
   position: fixed;
   bottom: 0;
   left: 0;
-  margin: 0 0 15px 15px;
-  background-color: rgba(230, 230, 230, 0.2);
-  border-radius: 15px;
-  box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color: rgba(93, 116, 70, 0.9);
+  border-radius: 10px;
+  height: 60px;
+  width: 300px;
+  box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
 }
-.home-icons {
+.header-icons {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  margin: 0 0 15px 15px;
-  background-color: rgba(230, 230, 230, 0.2);
-  border-radius: 25px;
-  box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
-  color: black;
+  top: 0;
+  right: 0;
 }
 .fa-linkedin {
-  color: #000;
-  margin: auto 10px;
+  color: #fff;
+  margin: auto 8px;
 }
 .fa-linkedin:hover {
-  color: rgba(93, 116, 70, 0.9);
-  margin: auto 10px;
+  margin: auto 8px;
 }
 .fa-github {
-  color: #000;
-  margin: auto 10px;
+  color: #fff;
+  margin: auto 8px;
 }
 .fa-github:hover {
-  color: rgba(93, 116, 70, 0.9);
-  margin: auto 10px;
+  margin: auto 8px;
 }
 .fa-inbox {
-  color: #000;
-  margin: auto 10px;
+  color: #fff;
+  margin: auto 8px;
 }
 .fa-inbox:hover {
-  color: rgba(93, 116, 70, 0.9);
-  margin: auto 10px;
+  margin: auto 8px;
 }
 .fa-file {
-  color: #000;
-  margin: auto 10px;
+  color: #fff;
+  margin: auto 8px;
 }
 .fa-file:hover {
-  color: rgba(93, 116, 70, 0.9);
-  margin: auto 10px;
+  margin: auto 8px;
+}
+.fa-home:hover {
+  background-color: rgba(93, 116, 70, 0.9);
+  color: #fff;
 }
 .aboutMeClassCont {
   display: flex;
@@ -165,10 +171,6 @@ h1 {
   background-color: rgba(93, 116, 70, 0.9);
   color: black;
 }
-.topnav a.active {
-  background-color: rgba(93, 116, 70, 0.9);
-  color: white;
-}
 .topnav .icon {
   display: none;
 }
@@ -198,7 +200,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 15px 15px;
+  justify-content: center;
+  align-items: center;
   width: 700px;
 }
 .skill-card {
@@ -233,12 +236,6 @@ h1 {
   font-size: 22px;
   line-height: 1.5;
 }
-#grow {
-  transition: all 0.2s ease-in-out;
-}
-#grow:hover {
-  transform: scale(1.1);
-}
 a {
   text-decoration: none !important;
   color: black;
@@ -248,16 +245,38 @@ a {
   color: black !important;
   margin-top: 10px;
 }
+.header-btn {
+  text-decoration: none;
+  background-color: rgba(220, 220, 220, 0);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  margin: 25px 10px 10px 10px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+.header-btn:hover {
+  color: rgba(93, 116, 70, 0.9);
+  transition: all 0.2s ease-in;
+}
+#grow {
+  transition: all 0.2s ease-in-out;
+}
+#grow:hover {
+  transform: scale(1.1);
+}
 @media screen and (max-width: 1290px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 25px;
+  }
   .card-aboutme {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
   }
-  /* .headshot {
-        height: 400px;
-        width: 285px;
-    } */
   #aboutMeQ {
     display: inline-block;
     margin: 15px !important;
@@ -289,27 +308,16 @@ a {
     margin: 0 auto !important;
   }
 }
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .aboutmeP {
-    height: 403px !important;
-    width: 352px !important;
-  }
-}
+
 @media screen and (max-width: 760px) {
   .headshot {
     height: 400px;
     width: 285px;
   }
 }
+
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
+  /* .topnav.responsive {
     position: relative;
   }
   .topnav.responsive a.icon {
@@ -321,8 +329,8 @@ a {
     float: none;
     display: block;
     text-align: left;
-  }
-  .icons {
+  } */
+  .header-icons {
     display: none;
   }
   .home-icons {
@@ -342,27 +350,37 @@ a {
     font-size: 18px;
     line-height: 1.5 !important;
   }
-  .skills-container {
+  /* .skills-container {
     height: 250px;
     width: 300px;
-  }
-  body {
-    background: url('https://i.imgur.com/X0FjufF.jpg');
-    background-position: right -220px bottom 0px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  } */
   .name {
-    margin: 10px 0px 0px !important;
+    margin: 70px 0px 0px !important;
     font-size: 40px;
   }
   .myTitle {
+    font-size: 25px;
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+  }
+  .header-btn {
+    text-decoration: none;
+    background-color: rgba(220, 220, 220, 0);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    margin: 25px 10px 10px 10px;
+    padding: 5px 10px;
+  }
+  .myTitle {
     font-size: 20px;
-    margin-left: 5px !important;
+    /* margin-left: 5px !important; */
   }
   .home-content {
     margin-top: 100px !important;
+  }
+  .aboutMe {
+    width: 100vw;
   }
   .card-contact {
     background-color: rgba(230, 230, 230, 0.7);
@@ -389,15 +407,54 @@ a {
   .skills-card-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin: 15px 15px;
-    width: 270px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
   }
-  .card-projects {
+  /* .card-projects {
     margin: 7px auto !important;
+  } */
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutmeP {
+    height: 403px !important;
+    width: 352px !important;
+  }
+  h1 {
+    margin: 0 !important;
+    font-size: 34px;
+  }
+  h3 {
+    position: relative;
+    left: 0 !important;
+  }
+  .header {
+    height: 25vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .skills-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
   }
 }
-@media screen and (max-width: 374px) {
+
+@media screen and (max-width: 378px) {
   .body-aboutme {
     background: url('https://i.imgur.com/X0FjufF.jpg');
     background-position: right -1000px bottom 0px;
@@ -405,12 +462,30 @@ a {
     background-attachment: fixed;
     background-size: cover;
   }
+  .skills-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 250px !important;
+  }
   .home-content {
     margin-bottom: 125px !important;
+  }
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-contact {
+    margin: 15px auto !important;
   }
   .aboutmeP {
     height: 250px !important;
     width: 180px !important;
+  }
+  .contact-icons {
+    margin-left: 10px !important;
   }
   .skills-container {
     height: 250px;
@@ -422,5 +497,23 @@ a {
   }
   .card-projects {
     margin: 7px auto !important;
+  }
+  .name {
+    margin: 10px 0px 0px !important;
+    font-size: 35px;
+  }
+  .myTitle {
+    font-size: 25px;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .header-btn {
+    text-decoration: none;
+    background-color: rgba(220, 220, 220, 0);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 25px 10px 10px 10px;
+    padding: 3px 6px;
   }
 }
