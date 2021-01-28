@@ -324,16 +324,11 @@ a {
   .headshot {
     height: 400px;
     width: 285px;
+    margin-left: 130px !important;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .header-icons {
-    display: none;
-  }
-  .home-icons {
-    display: none;
-  }
   .card-contact {
     height: 250px;
     width: 300px;
@@ -399,12 +394,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 100vw;
-  }
-  /* .card-projects {
-    margin: 7px auto !important;
-  } */
-  .topnav a:not(:first-child) {
-    display: none;
   }
   .topnav a.icon {
     float: right;
