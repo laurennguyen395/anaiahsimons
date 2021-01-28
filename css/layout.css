@@ -65,7 +65,7 @@ h3 {
   box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
 }
 .header-icons {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
 }
@@ -499,7 +499,7 @@ a {
     margin-left: 10px !important;
   }
   .name {
-    margin: 10px 0px 0px 0px !important;
+    margin: 30px 0px 0px 0px !important;
     font-size: 38px;
   }
   .myTitle {
