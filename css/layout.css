@@ -494,7 +494,7 @@ a {
     align-items: center;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
   .contact-icons {
     margin-left: 10px !important;
   }
