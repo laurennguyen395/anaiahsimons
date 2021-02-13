@@ -16,13 +16,10 @@ h1 {
   margin: 55px;
   font-size: 34px;
 }
-h3 {
-  white-space: nowrap;
-}
 .header {
   height: 40vh;
   background-size: 100%;
-  background-position: center;
+  background-position: 0% 85%;
   background-repeat: no-repeat;
   box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
 }
@@ -30,393 +27,28 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .name {
   color: #fff;
-  font-size: 80px;
-  margin-top: 65px !important;
-}
-.myTitle {
-  color: #fff;
-  margin: 25px 0 25px 0;
-  font-size: 45px;
-}
-/* .icons {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin: 0 0 15px 15px;
-  background-color: rgba(230, 230, 230, 0.1);
-  border-radius: 25px;
-  box-shadow: 2px 5px rgba(136, 136, 136, 0.2);
-} */
-.contact-icons {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-  background-color: rgba(93, 116, 70, 0.9);
-  border-radius: 10px;
-  height: 60px;
-  width: 300px;
-  box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
-}
-.header-icons {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.fa-linkedin {
-  color: #fff;
-  margin: auto 8px;
-}
-.fa-linkedin:hover {
-  margin: auto 8px;
-}
-.fa-github {
-  color: #fff;
-  margin: auto 8px;
-}
-.fa-github:hover {
-  margin: auto 8px;
-}
-.fa-inbox {
-  color: #fff;
-  margin: auto 8px;
-}
-.fa-inbox:hover {
-  margin: auto 8px;
-}
-.fa-file {
-  color: #fff;
-  margin: auto 8px;
-}
-.fa-file:hover {
-  margin: auto 8px;
-}
-.fa-home:hover {
-  background-color: rgba(93, 116, 70, 0.9);
-  color: #fff;
-}
-.aboutMeClassCont {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  margin: 0 auto;
-}
-.card-aboutme {
-  width: 50vw;
-  margin: auto auto;
-  display: flex;
-  float: left;
-  margin-left: 15px;
-}
-.card-projects {
-  background-color: white;
-  width: 300px;
-}
-.card-projects:hover {
-  cursor: pointer;
-}
-.proj-card-cont {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 25px auto;
-}
-.card-body-proj {
-  height: 388px !important;
-  display: flex;
+  font-size: 55px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 0 auto;
-}
-.project-title {
-  margin-bottom: 15px;
-}
-.card-img-top {
-  height: 225px;
-  width: 265px;
-}
-.card-title {
-  text-align: left;
-  color: black;
-}
-.card.mb-3 {
-  margin: 15px 0 0 15px;
-}
-.card-text {
-  text-align: left;
-  margin-bottom: 0px !important;
-  color: black;
-}
-.card-link {
-  display: flex;
   justify-content: center;
-  align-content: flex-end;
-  text-decoration: none;
-  color: black;
-  background-color: rgba(230, 230, 230, 0.2);
-  font-size: 20px;
 }
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-  background-color: rgba(93, 116, 70, 0.9);
-  color: black;
-}
-.topnav .icon {
-  display: none;
-}
-#carouselExampleIndicators.carousel.slide {
-  height: 300px;
-  width: 200px;
-}
-.aboutMe {
-  display: flex;
-}
-.headshot {
-  margin-top: 50px !important;
-  margin-left: 30px !important;
-  border-radius: 11px;
-  box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
-}
-.card-title-about-me {
-  text-align: left;
-  padding-left: 25px;
-}
-.card-text-about-me {
-  padding-left: 25px;
-}
-.skills-container {
-  height: 500px;
-  width: 500px;
-}
-.skills-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 700px;
-}
-.skill-card {
-  background-color: (230, 230, 230, 0.2);
-  margin-left: 15px;
-  height: 100px;
-  width: 102px;
-  margin-top: 15px;
-}
-/* .fab {
-    margin: 0 auto;
-} */
-.skills-title {
-  margin: 30px 35px;
-}
-.skill {
-  text-align: center;
-  margin-bottom: 0px;
-  background-color: rgba(230, 230, 230, 0.2);
-  /* border-radius: 0px 0px 25px 25px; */
-}
-.sql {
-  height: 85px;
-}
-.card-contact {
-  /* background-color: rgba(230, 230, 230,0.2); */
-  height: 250px;
-  width: 500px;
-  margin: 25px 0 0 15px;
-}
-.contactP {
-  font-size: 22px;
-  line-height: 1.5;
-}
-a {
-  text-decoration: none !important;
-  color: black;
-}
-.tech-used {
-  text-decoration: none !important;
-  color: black !important;
-  margin-top: 10px;
-}
-.header-btn {
-  text-decoration: none;
-  background-color: rgba(220, 220, 220, 0);
-  color: #fff;
-  font-size: 18px;
-  border-radius: 3px;
-  margin: 25px 10px 10px 10px;
-  padding: 5px 10px;
-  border: 1px solid #fff;
-}
-.header-btn:hover {
-  color: rgba(93, 116, 70, 0.9);
-  transition: all 0.2s ease-in;
-}
-#grow {
-  transition: all 0.2s ease-in-out;
-}
-#grow:hover {
-  transform: scale(1.1);
-}
+
 @media screen and (max-width: 1290px) {
-  .aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 25px;
-  }
-  .card-aboutme {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #aboutMeQ {
-    display: inline-block;
-    margin: 15px !important;
-  }
-  .aboutMeClassCont {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 0 auto;
-  }
 }
 @media screen and (max-width: 880px) {
   .name {
-    font-size: 70px;
-  }
-  .myTitle {
-    font-size: 40px;
-  }
-  .proj-card-cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .card {
-    margin-top: 20px !important;
-  }
-  .card.mb-3 {
-    background-color: rgba(230, 230, 230, 0.7);
-    margin: 0 auto !important;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .headshot {
-    height: 400px;
-    width: 285px;
-    margin-left: 130px !important;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .card-contact {
-    height: 250px;
-    width: 300px;
-    margin: 25px 0 0 15px;
-  }
-  .contactP {
-    font-size: 18px;
-    line-height: 1.5 !important;
-  }
-  .name {
-    margin: 110px 0px 0px !important;
-    font-size: 40px;
-  }
-  .myTitle {
-    font-size: 25px;
-    margin: 0px !important;
-    margin-bottom: 15px !important;
-  }
-  .header-btn {
-    text-decoration: none;
-    background-color: rgba(220, 220, 220, 0);
-    color: #fff;
-    font-size: 18px;
-    border-radius: 3px;
-    margin: 25px 10px 10px 10px;
-    padding: 5px 10px;
-  }
-  .myTitle {
-    font-size: 20px;
-    /* margin-left: 5px !important; */
-  }
-  .home-content {
-    margin-top: 100px !important;
-  }
-  .aboutMe {
-    width: 100vw;
-  }
-  .card-contact {
-    background-color: rgba(230, 230, 230, 0.7);
-  }
-  .headshot {
-    margin-left: 15px !important;
-  }
-  .card-title-about-me {
-    padding-left: 5px !important;
-  }
-  .card-text-about-me {
-    padding-left: 5px !important;
-  }
-  .card-projects {
-    margin: 15px auto !important;
-  }
-  .body-aboutme {
-    background: url('https://i.imgur.com/X0FjufF.jpg');
-    background-position: right -1000px bottom 0px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  .skills-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutmeP {
-    height: 403px !important;
-    width: 352px !important;
-  }
-  h1 {
-    margin: 0 !important;
-    font-size: 34px;
-  }
-  h3 {
-    position: relative;
-    left: 0 !important;
-  }
   .header {
     height: 35vh;
     background-size: 100%;
@@ -424,89 +56,11 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .skills-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
 }
 
 @media screen and (max-width: 450px) {
-  .skills-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 215px !important;
-  }
-  .home-content {
-    margin-bottom: 125px !important;
-  }
-  h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .card-contact {
-    margin: 15px auto !important;
-  }
-  .aboutmeP {
-    height: 250px !important;
-    width: 180px !important;
-  }
-  .contact-icons {
-    margin-left: 40px !important;
-  }
-  .skills-container {
-    height: 250px;
-    width: 200px;
-  }
-  .skill-card {
-    margin: 0 0 10px 0 !important;
-    background-color: rgba(255, 255, 255, 0.7);
-  }
-  .skill .card-projects {
-    margin: 7px auto !important;
-  }
-  .name {
-    margin: 100px 0px 0px !important;
-    font-size: 35px;
-  }
-  .myTitle {
-    font-size: 22px;
-    margin: 0px !important;
-    margin-bottom: 10px !important;
-  }
-  .header-btn {
-    text-decoration: none;
-    background-color: rgba(220, 220, 220, 0);
-    color: #fff;
-    font-size: 14px;
-    border-radius: 3px;
-    margin: 25px 10px 10px 10px;
-    padding: 3px 6px;
-  }
-  .headshot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 @media screen and (max-width: 375px) {
-  .contact-icons {
-    margin-left: 10px !important;
-  }
-  .name {
-    margin: 30px 0px 0px 0px !important;
-    font-size: 38px;
-  }
-  .myTitle {
-    font-size: 22px;
-    margin: 0px !important;
-    margin-bottom: 10px !important;
-  }
   .header {
     height: 40;
   }
