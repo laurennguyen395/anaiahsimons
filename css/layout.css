@@ -65,8 +65,8 @@ body {
 }
 
 .punk-peacock {
-  height: 521px;
-  width: 397px;
+  height: 520px;
+  width: 395px;
   margin: 20px 0;
 }
 
@@ -75,7 +75,21 @@ body {
 }
 
 @media screen and (max-width: 1290px) {
+  .punk-peacock {
+    height: 420px;
+    width: 295px;
+    margin: 20px 0;
+  }
 }
+
+@media screen and (max-width: 950px) {
+  .punk-peacock {
+    height: 320px;
+    width: 235px;
+    margin: 20px 0;
+  }
+}
+
 @media screen and (max-width: 880px) {
   .name {
     font-size: 45px;
@@ -85,6 +99,12 @@ body {
 @media screen and (max-width: 760px) {
   .name {
     font-size: 35px;
+  }
+
+  .punk-peacock {
+    height: 320px;
+    width: 205px;
+    margin: 20px 0;
   }
 }
 
@@ -99,6 +119,20 @@ body {
   }
   .name {
     font-size: 30px;
+  }
+
+  .gallery {
+    background-color: var(--gallery-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .punk-peacock {
+    height: 420px;
+    width: 295px;
+    margin: 20px 0;
   }
 }
 
