@@ -1,7 +1,12 @@
+:root {
+  --gallery-bg-color: #113336;
+}
+
 html * {
   margin: 0px;
   padding: 0px;
 }
+
 body {
   margin: 0;
   padding: 0px !important;
@@ -12,56 +17,113 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  margin: 55px;
-  font-size: 34px;
-}
+
 .header {
   height: 40vh;
   background-size: 100%;
-  background-position: 0% 85%;
+  background-position: 0% 75%;
   background-repeat: no-repeat;
-  box-shadow: 0 4px 10px -2px rgb(0, 0, 0);
+  /* box-shadow: 0 4px 10px -2px rgb(0, 0, 0); */
 }
+
 .header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .name {
+  position: relative;
   color: #fff;
   font-size: 55px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 150px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.navlinks {
+  color: black;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.navlinks:hover {
+  text-decoration: none;
+}
+
+.gallery {
+  background-color: var(--gallery-bg-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.punk-peacock {
+  height: 521px;
+  width: 397px;
+  margin: 20px 0;
+}
+
+.model {
+  margin: 5px 25px;
 }
 
 @media screen and (max-width: 1290px) {
 }
 @media screen and (max-width: 880px) {
   .name {
-    font-size: 20px;
+    font-size: 45px;
   }
 }
 
 @media screen and (max-width: 760px) {
+  .name {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .header {
-    height: 35vh;
+    height: 40vh;
     background-size: 100%;
+    background-position: 0% 85%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .name {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 6px;
+  }
+
+  .navlinks {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 2px;
+  }
 }
 @media screen and (max-width: 375px) {
+  .name {
+    font-size: 20px;
+    margin-top: 50px;
+  }
   .header {
-    height: 40;
+    height: 40vh;
+    background-position: 0% 75%;
   }
 }
