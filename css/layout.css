@@ -75,7 +75,7 @@ body {
 }
 
 @media screen and (max-width: 1290px) {
-  .punk-peacock {
+  .photo {
     height: 420px;
     width: 295px;
     margin: 20px 0;
@@ -83,7 +83,7 @@ body {
 }
 
 @media screen and (max-width: 950px) {
-  .punk-peacock {
+  .photo {
     height: 320px;
     width: 235px;
     margin: 20px 0;
@@ -101,7 +101,7 @@ body {
     font-size: 35px;
   }
 
-  .punk-peacock {
+  .photo {
     height: 320px;
     width: 205px;
     margin: 20px 0;
@@ -130,7 +130,7 @@ body {
     align-items: center;
   }
 
-  .punk-peacock {
+  .photo {
     height: 420px;
     width: 295px;
     margin: 20px 0;
