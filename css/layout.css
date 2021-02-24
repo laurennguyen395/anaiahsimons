@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0px !important;
   height: 100vh;
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: 'Playfair Display', serif;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased;
@@ -22,11 +22,26 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 40vh;
   background-size: 100%;
-  background-position: 0% 75%;
-  background-repeat: no-repeat;
+  background-color: #267075;
+  /* background-position: 0% 75%;
+  background-repeat: no-repeat; */
   /* box-shadow: 0 4px 10px -2px rgb(0, 0, 0); */
+}
+
+.logo {
+  height: 235px;
+  width: 235px;
+  margin: 15px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-content {
@@ -75,6 +90,17 @@ body {
   margin: 20px 0;
 }
 
+.photo:hover {
+  cursor: pointer;
+}
+
+#grow {
+  transition: all 0.2s ease-in-out;
+}
+#grow:hover {
+  transform: scale(1.1);
+}
+
 .model {
   font-family: 'Playfair Display', serif;
   margin: 5px 25px;
@@ -99,6 +125,35 @@ body {
 .aboutmep2 {
   font-family: 'Playfair Display', serif;
   padding: 10px;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gallery-bg-color);
+  color: #fff;
+}
+
+.packagesp {
+  font-size: 1.5em;
+}
+
+.booknow {
+  background-color: #267075;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+  margin: 8px 0 10px 0;
+}
+
+.booknow:focus,
+.booknow:hover {
+  background-color: FireBrick;
+  color: White;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1290px) {
