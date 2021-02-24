@@ -156,6 +156,38 @@ body {
   text-decoration: none;
 }
 
+.footer {
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.backtotop {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.backtotopa {
+  color: black;
+  cursor: pointer;
+}
+
+.fab {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+
+.far {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 25px;
+  color: black;
+}
+
 @media screen and (max-width: 1290px) {
   .photo {
     height: 420px;
