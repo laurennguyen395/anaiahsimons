@@ -28,10 +28,8 @@ body {
   justify-content: center;
   height: 40vh;
   background-size: 100%;
-  background-color: #267075;
-  /* background-position: 0% 75%;
-  background-repeat: no-repeat; */
-  /* box-shadow: 0 4px 10px -2px rgb(0, 0, 0); */
+  background-position: 0% 75%;
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -51,12 +49,8 @@ body {
   justify-content: center;
 }
 
-.name {
-  position: relative;
+.sevendsins {
   color: #fff;
-  font-size: 55px;
-  margin-top: 150px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .nav {
@@ -90,6 +84,12 @@ body {
   margin: 20px 0;
 }
 
+.phoenix-photo {
+  height: 52px;
+  width: 39px;
+  margin: 20px 0;
+}
+
 .photo:hover {
   cursor: pointer;
 }
@@ -106,10 +106,15 @@ body {
   margin: 5px 25px;
 }
 
+.break {
+  border: 1px solid var(--gallery-bg-color);
+}
+
 .aboutme {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .headshot {
@@ -128,6 +133,8 @@ body {
 }
 
 .packages {
+  height: 28vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,6 +195,13 @@ body {
   color: black;
 }
 
+.individual-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 1290px) {
   .photo {
     height: 420px;
@@ -196,10 +210,34 @@ body {
   }
 
   .headshot {
-    height: 420px;
-    width: 295px;
+    height: 520px;
+    width: 395px;
     margin: 20px 0;
   }
+
+  .aboutme {
+    flex-wrap: wrap;
+  }
+
+  .aboutmep,
+  .aboutmep2 {
+    margin: 0 35px;
+  }
+
+  /* .packagesh1 {
+    margin-bottom: 45px;
+    font-size: 58px;
+  }
+
+  .packagesp {
+    font-size: 2.5em;
+    margin: 15px 0;
+  }
+
+  .booknow {
+    padding: 0.5em;
+    margin: 15px 0 0px 0;
+  } */
 }
 
 @media screen and (max-width: 950px) {
@@ -209,8 +247,8 @@ body {
     margin: 20px 0;
   }
   .headshot {
-    height: 320px;
-    width: 235px;
+    height: 420px;
+    width: 295px;
     margin: 20px 0;
   }
 }
@@ -231,7 +269,7 @@ body {
     width: 205px;
     margin: 20px 0;
   }
-  .headhshot {
+  .headshot {
     height: 320px;
     width: 205px;
     margin: 20px 0;
@@ -265,10 +303,35 @@ body {
     width: 295px;
     margin: 20px 0;
   }
-  .headhshot {
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .headshot {
     height: 420px;
     width: 295px;
     margin: 20px 0;
+  }
+
+  .packagesh1 {
+    margin: 10px 0 0 0;
+    font-size: 25px;
+  }
+
+  .packagesp {
+    margin: 8px 0;
+    font-size: 1.2em;
+  }
+
+  .booknow {
+    font-size: 12px;
+    padding: 0.3em;
+    margin: 0 0 15px 0;
   }
 }
 
@@ -288,12 +351,47 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
-  .name {
-    font-size: 20px;
-    margin-top: 50px;
-  }
   .header {
     height: 40vh;
     background-position: 0% 75%;
+  }
+
+  .packagesh1 {
+    font-size: 28px;
+  }
+
+  .packagesp {
+    font-size: 1.5em;
+  }
+
+  .booknow {
+    margin: 0px 0 10px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .booknow {
+    margin: 0 0 20px 0;
+  }
+}
+@media screen and (max-width: 321px) {
+  .header {
+    height: 40vh;
+    background-position: 0% 75%;
+  }
+
+  .packagesh1 {
+    margin: 15px 0 0 0;
+    font-size: 20px;
+  }
+
+  .packagesp {
+    margin: 4px 0;
+    font-size: 1em;
+  }
+
+  .booknow {
+    font-size: 8px;
+    padding: 0.2em;
+    margin: 0 0 20px 0;
   }
 }
