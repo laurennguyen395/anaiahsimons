@@ -195,11 +195,28 @@ body {
   color: black;
 }
 
+.home-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fas {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  color: black;
+}
+
 .individual-gallery {
   display: flex;
   justify-content: space-around;
   align-items: space-around;
   flex-wrap: wrap;
+}
+
+.ig-link {
+  color: black;
 }
 
 @media screen and (max-width: 1290px) {
