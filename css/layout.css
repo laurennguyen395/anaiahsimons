@@ -101,6 +101,10 @@ body {
   transform: scale(1.1);
 }
 
+.shoot-title {
+  margin-left: 25px;
+}
+
 .model {
   font-family: 'Playfair Display', serif;
   margin: 5px 25px;
@@ -164,6 +168,12 @@ body {
 }
 
 .footer {
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot {
   height: 8vh;
   display: flex;
   justify-content: flex-end;
