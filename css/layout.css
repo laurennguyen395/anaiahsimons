@@ -102,7 +102,8 @@ body {
 }
 
 .shoot-title {
-  margin-left: 25px;
+  display: flex;
+  justify-content: flex;
 }
 
 .model {
@@ -131,9 +132,12 @@ body {
   font-family: 'Playfair Display', serif;
   padding: 10px;
 }
-.aboutmep2 {
+
+.meetAnaiah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Playfair Display', serif;
-  padding: 10px;
 }
 
 .packages {
