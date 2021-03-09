@@ -138,7 +138,7 @@ body {
   color: white;
   display: flex;
   justify-content: flex-end;
-  margin-right: 55px;
+  margin-right: 155px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -362,6 +362,7 @@ body {
   .meetAnaiah {
     color: white;
     display: flex;
+    font-size: 28px;
     justify-content: center;
     margin-right: 0 !important;
     font-family: 'Playfair Display', serif;
