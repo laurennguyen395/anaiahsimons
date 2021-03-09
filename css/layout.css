@@ -104,11 +104,14 @@ body {
 .shoot-title {
   display: flex;
   justify-content: flex;
+  color: white;
+  margin-left: 25px;
 }
 
 .model {
   font-family: 'Playfair Display', serif;
   margin: 5px 25px;
+  color: white;
 }
 
 .break {
@@ -166,17 +169,23 @@ body {
   margin: 8px 0 10px 0;
 }
 
-.booknowgal {
+.booknow-gal {
   background-color: #267075;
   border-radius: 5px;
   color: white;
   padding: 0.5em;
   text-decoration: none;
-  margin: 8px 0 1px 0;
+  margin: 8px 15px 10px 0;
 }
 
 .booknow:focus,
 .booknow:hover {
+  background-color: FireBrick;
+  color: White;
+  text-decoration: none;
+}
+.booknow-gal:focus,
+.booknow-gal:hover {
   background-color: FireBrick;
   color: White;
   text-decoration: none;
@@ -222,7 +231,8 @@ body {
 
 .home-icon {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-left: 15px;
 }
 
 .fas {
@@ -230,7 +240,7 @@ body {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 20px;
-  color: black;
+  color: white;
 }
 
 .individual-gallery {
@@ -241,7 +251,7 @@ body {
 }
 
 .ig-link {
-  color: black;
+  color: white;
 }
 
 @media screen and (max-width: 1290px) {
