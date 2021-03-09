@@ -12,6 +12,7 @@ html * {
 
 body {
   margin: 0;
+  background-color: rgb(6, 55, 91) !important;
   padding: 0px !important;
   height: 100vh;
   font-family: 'Playfair Display', serif;
@@ -35,8 +36,7 @@ body {
 .logo {
   height: 295px;
   width: 295px;
-  margin: -30px 0 0 35px;
-  border-radius: 100px;
+  margin: -60px 0 0 -35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .navlinks {
-  color: black;
+  color: white;
   text-decoration: none;
   margin: 8px;
   font-family: 'Playfair Display', serif;
@@ -72,7 +72,7 @@ body {
 }
 
 .gallery {
-  background-color: var(--gallery-bg-color);
+  background-color: rgb(6, 55, 91);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -130,13 +130,15 @@ body {
 
 .aboutmep {
   font-family: 'Playfair Display', serif;
+  color: white;
   padding: 10px;
 }
 
 .meetAnaiah {
+  color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  margin-right: 55px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -198,7 +200,7 @@ body {
 }
 
 .backtotopa {
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -207,7 +209,7 @@ body {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  color: black;
+  color: white;
 }
 
 .far {
@@ -215,7 +217,7 @@ body {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 25px;
-  color: black;
+  color: white;
 }
 
 .home-icon {
@@ -253,10 +255,6 @@ body {
     height: 520px;
     width: 395px;
     margin: 20px 0;
-  }
-
-  .aboutme {
-    flex-wrap: wrap;
   }
 
   .aboutmep,
@@ -309,11 +307,11 @@ body {
     width: 205px;
     margin: 20px 0;
   }
-  .headshot {
+  /* .headshot {
     height: 320px;
     width: 205px;
     margin: 20px 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
@@ -356,6 +354,17 @@ body {
     height: 420px;
     width: 295px;
     margin: 20px 0;
+  }
+  .aboutme {
+    flex-wrap: wrap;
+  }
+
+  .meetAnaiah {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 0 !important;
+    font-family: 'Playfair Display', serif;
   }
 
   .packagesh1 {
