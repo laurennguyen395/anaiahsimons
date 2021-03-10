@@ -22,6 +22,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.phoenixbod {
+  background-color: rgb(81, 100, 115) !important;
+}
+
+.hunnybod {
+  background-color: rgb(119, 177, 173) !important;
+}
+
+.addisonbod {
+  background-color: rgb(101, 108, 103) !important;
+}
+
+.flowergirlbod {
+  background-color: rgb(212, 177, 176) !important;
+}
+
 .header {
   display: flex;
   flex-direction: column;
