@@ -345,7 +345,6 @@ body {
     font-size: 24px;
   }
 }
-
 @media screen and (max-width: 650px) {
   .aboutme {
     flex-wrap: wrap;
