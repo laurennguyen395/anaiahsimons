@@ -100,6 +100,21 @@ body {
   width: 395px;
   margin: 20px 0;
 }
+.photos {
+  height: 480px;
+  width: 320px;
+  margin: 20px 0;
+}
+.photoss {
+  height: 480px;
+  width: 350px;
+  margin: 20px 0;
+}
+.photosss {
+  height: 485px;
+  width: 345px;
+  margin: 20px 0;
+}
 
 .phoenix-photo {
   height: 52px;
