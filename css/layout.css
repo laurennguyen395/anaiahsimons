@@ -386,6 +386,11 @@ Fading animation .fade {
   animation-duration: 1.5s;
 }
 
+.galtitle {
+  color: #fff;
+  margin: 5px 25px;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
