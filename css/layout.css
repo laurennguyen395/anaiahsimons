@@ -421,6 +421,12 @@ Fading animation .fade {
     margin: 20px 0;
   }
 
+  .photossss {
+    height: 485px;
+    width: 335px;
+    margin: 20px 0;
+  }
+
   .headshot {
     height: 520px;
     width: 395px;
@@ -430,6 +436,14 @@ Fading animation .fade {
   .aboutmep,
   .aboutmep2 {
     margin: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .photossss {
+    height: 350px;
+    width: 235px;
+    margin: 20px 0;
   }
 }
 
@@ -450,6 +464,13 @@ Fading animation .fade {
   .name {
     font-size: 45px;
   }
+
+  .photossss {
+    height: 350px;
+    width: 235px;
+    margin: 20px 0;
+  }
+
   .meet {
     font-size: 32px;
   }
@@ -465,10 +486,34 @@ Fading animation .fade {
     width: 205px;
     margin: 20px 0;
   }
+  .photossss {
+    height: 350px;
+    width: 235px;
+    margin: 20px 0;
+  }
   .meet {
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 730px) {
+  .photossss {
+    height: 330px;
+    width: 215px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .aboutme {
     flex-wrap: wrap;
