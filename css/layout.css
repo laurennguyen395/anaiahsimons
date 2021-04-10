@@ -437,6 +437,7 @@ Fading animation .fade {
   .aboutmep,
   .aboutmep2 {
     margin: 0 35px;
+    width: 100%;
   }
 }
 
