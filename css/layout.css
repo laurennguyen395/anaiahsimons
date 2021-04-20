@@ -168,9 +168,9 @@ body {
   width: 100%;
 }
 
-.headshot {
-  height: 520px;
-  width: 395px;
+#headshot {
+  /* height: 520px;
+  width: 39px; */
   padding: 10px;
 }
 
@@ -428,7 +428,7 @@ Fading animation .fade {
     margin: 20px 0;
   }
 
-  .headshot {
+  #headshot {
     height: 520px;
     width: 395px;
     margin: 20px 0;
@@ -455,7 +455,7 @@ Fading animation .fade {
     width: 235px;
     margin: 20px 0;
   }
-  .headshot {
+  #headshot {
     height: 420px;
     width: 295px;
     margin: 20px 0;
@@ -558,7 +558,7 @@ Fading animation .fade {
     display: none;
   }
 
-  .headshot {
+  #headshot {
     height: 420px;
     width: 295px;
     margin: 20px 0;
